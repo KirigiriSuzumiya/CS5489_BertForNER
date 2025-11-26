@@ -92,13 +92,23 @@ This way, the model learns an inner representation of the English language that 
 
 ## Experiment
 
-### BERT
-#### train
-![](./img/bert_train_loss.png)
-#### eval
-![](./img/bert_eval.png)
+### BERT base
+![](./img/bert_base.png)
 
-### RoBERTa
-#### train
+### BERT large
+![](./img/bert_large.png)
 
-#### eval
+### RoBERTa base
+![](./img/roberta_base.png)
+
+### RoBERTa large
+![](./img/roberta_large.png)
+
+### Performance on test set
+
+|  model | params | accuary | f1 |
+|---------|----:|---------:|---:|
+| bert-base | 110m | 0.981 | 0.906 |
+| bert-large | 340m | 0.982 | 0.916 |
+| roberta-base | 125m | 0.9834 | 0.9208 |
+| roberta-large | 355m | 0.9849 | 0.9259 |

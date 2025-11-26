@@ -17,13 +17,13 @@ def train(model_name):
     training_args = TrainingArguments(
         output_dir=f"outputs/{model_name.split('/')[-1]}",
         learning_rate=2e-5,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
+        per_device_train_batch_size=4 if "large" in model_name else 16,
+        per_device_eval_batch_size=4 if "large" in model_name else 16,
         num_train_epochs=5,
         weight_decay=0.01,
         eval_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=2,
+        save_total_limit=1,
         load_best_model_at_end=True,
         logging_steps=10,
         logging_strategy="steps",
@@ -44,5 +44,5 @@ def train(model_name):
     )
 
     trainer.train()
-    eval_results = trainer.evaluate(test_dataset=ds["test"])
+    eval_results = trainer.evaluate(eval_dataset=ds["test"], metric_key_prefix="test")
     return eval_results
