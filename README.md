@@ -115,20 +115,21 @@ This way, the model learns an inner representation of the English language that 
 
 ## General Test
 
-The <span style="background:#90caf9;padding:0 4px;border-radius:4px">City University of Hong Kong</span> ( <span style="background:#90caf9;padding:0 4px;border-radius:4px">CityUHK</span> ) is a public university in <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Kowloon Tong</span> , <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Kowloon</span> , <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Hong Kong</span> .
-
-**Legend**: <span style="background:#a5d6a7;padding:0 6px;border-radius:4px;margin-right:6px">LOC</span> <span style="background:#90caf9;padding:0 6px;border-radius:4px;margin-right:6px">ORG</span>
+**Legend:** ![](https://img.shields.io/badge/PER-purple) ![](https://img.shields.io/badge/ORG-blue) ![](https://img.shields.io/badge/LOC-green) ![](https://img.shields.io/badge/MISC-yellow)
 
 ---
 
-A Level 5 fire broke out at <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Wang Fuk Court</span> in <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Tai Po</span> . It burned through the night and had still not been extinguished after a full day . Chief Executive <span style="background:#ffd54f;padding:0 4px;border-radius:4px">John Lee</span> visited the scene to inspect the situation .
+The ![](https://img.shields.io/badge/City%20University%20of%20Hong%20Kong-blue) ( ![](https://img.shields.io/badge/CityUHK-blue) ) is a public university in ![](https://img.shields.io/badge/Kowloon%20Tong-green) , ![](https://img.shields.io/badge/Kowloon-green) , ![](https://img.shields.io/badge/Hong%20Kong-green) .
 
-**Legend**: <span style="background:#a5d6a7;padding:0 6px;border-radius:4px;margin-right:6px">LOC</span> <span style="background:#ffd54f;padding:0 6px;border-radius:4px;margin-right:6px">PER</span>
+
+---
+
+A Level 5 fire broke out at ![](https://img.shields.io/badge/Wang%20Fuk%20Court-green) in ![](https://img.shields.io/badge/Tai%20Po-green) . It burned through the night and had still not been extinguished after a full day . Chief Executive ![](https://img.shields.io/badge/John%20Lee-purple) visited the scene to inspect the situation .
 
 ---
 
-Corporations from <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Hong Kong</span> and the mainland have set up funds for relief efforts . Leading the way is the <span style="background:#90caf9;padding:0 4px;border-radius:4px">Hong Kong Jockey Club</span> with a 100 million-dollar donation. Overnight -- the inferno engulfed homes as the flamestore through <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Wang Fuk Court</span> , leaving sm ould ering ruins . Many displaced residents spent the night at the temporary shelter of the <span style="background:#90caf9;padding:0 4px;border-radius:4px">Church of Christ in China</span> <span style="background:#90caf9;padding:0 4px;border-radius:4px">Fung Le ung Kit Memorial Secondary School</span> .
-
-**Legend:** <span style="background:#a5d6a7;padding:0 6px;border-radius:4px;margin-right:6px">LOC</span> <span style="background:#90caf9;padding:0 6px;border-radius:4px;margin-right:6px">ORG</span>
+Corporations from ![](https://img.shields.io/badge/Hong%20Kong-green) and the mainland have set up funds for relief efforts . Leading the way is the ![](https://img.shields.io/badge/Hong%20Kong%20Jockey%20Club-blue) with a 100 million - dollar donation . Overnight -- the inf erno engulfed homes as the flames tore through ![](https://img.shields.io/badge/Wang%20Fuk%20Court-green) , leaving sm ould ering ruins . Many displaced residents spent the night at the temporary shelter of the ![](https://img.shields.io/badge/Church%20of%20Christ%20in%20China-blue) ![](https://img.shields.io/badge/Fung%20Le%20ung%20Kit%20Memorial%20Secondary%20School-blue) .
 
 ---
+
+The ![](https://img.shields.io/badge/32nd%20APEC%20Leaders'%20Informal%20Meeting-yellow) opened in ![](https://img.shields.io/badge/Gye%20ong%20ju-green) , ![](https://img.shields.io/badge/South%20Korea-green) . At the venue , ![](https://img.shields.io/badge/Hong%20Kong-green) Chief Executive ![](https://img.shields.io/badge/John%20Lee-purple) shook hands with ![](https://img.shields.io/badge/South%20Korean-yellow) President ![](https://img.shields.io/badge/Lee%20Jae%20Myung-purple) , and the two exchanged greetings .

@@ -3,10 +3,10 @@ import os
 
 # Color palette for entity types
 ENTITY_COLORS: Dict[str, str] = {
-    "PER": "#ffd54f",
-    "ORG": "#90caf9",
-    "LOC": "#a5d6a7",
-    "MISC": "#ce93d8",
+    "PER": "purple",
+    "ORG": "blue",
+    "LOC": "green",
+    "MISC": "yellow",
 }
 
 
@@ -29,9 +29,9 @@ def token_label_pairs_to_markdown(tokens: List[str], labels: List[str], title: s
         nonlocal cur_ent_tokens, cur_ent_type
         if not cur_ent_type:
             return
-        text = " ".join(cur_ent_tokens)
+        text = " ".join(cur_ent_tokens).replace(" ", "%20")
         color = ENTITY_COLORS.get(cur_ent_type, "#ffdfe0")
-        span = f'<span style="background:{color};padding:0 4px;border-radius:4px">{text}</span>'
+        span = f'![](https://img.shields.io/badge/{text}-{color})'
         parts.append(span)
         cur_ent_tokens = []
         cur_ent_type = None
@@ -68,11 +68,10 @@ def token_label_pairs_to_markdown(tokens: List[str], labels: List[str], title: s
         close_entity()
 
     # Build legend with only types that appear in the result
-    used_types = {lab[2:] for lab in labels if lab not in ("O",) and lab.startswith(("B-", "I-"))}
     legend_parts: List[str] = []
-    for t in sorted(used_types):
+    for t in ENTITY_COLORS.keys():
         color = ENTITY_COLORS.get(t, "#ffdfe0")
-        legend_parts.append(f'<span style="background:{color};padding:0 6px;border-radius:4px;margin-right:6px">{t}</span>')
+        legend_parts.append(f'![](https://img.shields.io/badge/{t}-{color})')
 
     md_lines: List[str] = []
     if title:
@@ -82,6 +81,7 @@ def token_label_pairs_to_markdown(tokens: List[str], labels: List[str], title: s
     md_lines.append("")
     if legend_parts:
         md_lines.append("**Legend:** " + " ".join(legend_parts))
+    md_lines.append("")
     md_lines.append("---")
 
     return "\n".join(md_lines)

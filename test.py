@@ -45,7 +45,7 @@ def test(sentance, model_name):
         else:
             vis_tokens = sentance.split()
 
-        md = token_label_pairs_to_markdown(vis_tokens, predicted, title=sentance[:80])
+        md = token_label_pairs_to_markdown(vis_tokens, predicted)
         out_path = "outputs/ner_preview.md"
         save_markdown(md, out_path)
         print(f"Saved markdown preview to {out_path}")
@@ -56,7 +56,8 @@ def test(sentance, model_name):
         
 if __name__ == "__main__":
     test("The City University of Hong Kong (CityUHK) is a public university in Kowloon Tong, Kowloon, Hong Kong.", "/Users/boyifan/code/CS5489-ML/project/outputs/roberta-large/checkpoint-17555")
-    test("A Level 5 fire broke out at Wang Fuk Court in Tai Po. It burned through the night and had still not been extinguished after a full day. Chief Executive John Lee visited the scene to inspect the situation.", "/Users/boyifan/code/CS5489-ML/project/outputs/roberta-large/checkpoint-17555")
+    test("The 32nd APEC Leaders' Informal Meeting opened in Gyeongju, South Korea. At the venue, Hong Kong Chief Executive John Lee shook hands with South Korean President Lee Jae Myung, and the two exchanged greetings.", 
+         "/Users/boyifan/code/CS5489-ML/project/outputs/roberta-large/checkpoint-17555")
     test(
         "Corporations from Hong Kong and the mainland have set up funds for relief efforts. Leading the way is the Hong Kong Jockey Club with a 100 million-dollar donation. Overnight -- the inferno engulfed homes as the flames tore through Wang Fuk Court, leaving smouldering ruins.Many displaced residents spent the night at the temporary shelter of the Church of Christ in China Fung Leung Kit Memorial Secondary School.",
         "/Users/boyifan/code/CS5489-ML/project/outputs/roberta-large/checkpoint-17555"
