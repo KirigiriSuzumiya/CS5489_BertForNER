@@ -132,4 +132,4 @@ Corporations from ![](https://img.shields.io/badge/Hong%20Kong-green) and the ma
 
 ---
 
-The ![](https://img.shields.io/badge/32nd%20APEC%20Leaders'%20Informal%20Meeting-yellow) opened in ![](https://img.shields.io/badge/Gye%20ong%20ju-green) , ![](https://img.shields.io/badge/South%20Korea-green) . At the venue , ![](https://img.shields.io/badge/Hong%20Kong-green) Chief Executive ![](https://img.shields.io/badge/John%20Lee-purple) shook hands with ![](https://img.shields.io/badge/South%20Korean-yellow) President ![](https://img.shields.io/badge/Lee%20Jae%20Myung-purple) , and the two exchanged greetings .
+The ![](https://img.shields.io/badge/32nd%20APEC%20Leaders'%20Informal%20Meeting-yellow) opened in ![](https://img.shields.io/badge/Gye%20ong%20ju-green) , ![](https://img.shields.io/badge/South%20Korea-green) . At the venue , ![](https://img.shields.io/badge/Hong%20Kong-green) Chief Executive ![](https://img.shields.io/badge/John%20Lee-purple) shook hands with ![](https://img.shields.io/badge/South%20Korean-green) President ![](https://img.shields.io/badge/Lee%20Jae%20Myung-purple) , and the two exchanged greetings .
