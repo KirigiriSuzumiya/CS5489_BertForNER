@@ -112,3 +112,23 @@ This way, the model learns an inner representation of the English language that 
 | bert-large | 340m | 0.982 | 0.916 |
 | roberta-base | 125m | 0.9834 | 0.9208 |
 | roberta-large | 355m | 0.9849 | 0.9259 |
+
+## General Test
+
+The <span style="background:#90caf9;padding:0 4px;border-radius:4px">City University of Hong Kong</span> ( <span style="background:#90caf9;padding:0 4px;border-radius:4px">CityUHK</span> ) is a public university in <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Kowloon Tong</span> , <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Kowloon</span> , <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Hong Kong</span> .
+
+**Legend**: <span style="background:#a5d6a7;padding:0 6px;border-radius:4px;margin-right:6px">LOC</span> <span style="background:#90caf9;padding:0 6px;border-radius:4px;margin-right:6px">ORG</span>
+
+---
+
+A Level 5 fire broke out at <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Wang Fuk Court</span> in <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Tai Po</span> . It burned through the night and had still not been extinguished after a full day . Chief Executive <span style="background:#ffd54f;padding:0 4px;border-radius:4px">John Lee</span> visited the scene to inspect the situation .
+
+**Legend**: <span style="background:#a5d6a7;padding:0 6px;border-radius:4px;margin-right:6px">LOC</span> <span style="background:#ffd54f;padding:0 6px;border-radius:4px;margin-right:6px">PER</span>
+
+---
+
+Corporations from <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Hong Kong</span> and the mainland have set up funds for relief efforts . Leading the way is the <span style="background:#90caf9;padding:0 4px;border-radius:4px">Hong Kong Jockey Club</span> with a 100 million-dollar donation. Overnight -- the inferno engulfed homes as the flamestore through <span style="background:#a5d6a7;padding:0 4px;border-radius:4px">Wang Fuk Court</span> , leaving sm ould ering ruins . Many displaced residents spent the night at the temporary shelter of the <span style="background:#90caf9;padding:0 4px;border-radius:4px">Church of Christ in China</span> <span style="background:#90caf9;padding:0 4px;border-radius:4px">Fung Le ung Kit Memorial Secondary School</span> .
+
+**Legend:** <span style="background:#a5d6a7;padding:0 6px;border-radius:4px;margin-right:6px">LOC</span> <span style="background:#90caf9;padding:0 6px;border-radius:4px;margin-right:6px">ORG</span>
+
+---
