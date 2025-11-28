@@ -2,6 +2,14 @@
 
 cs5489 course project, BERT (and roberta) for Named Entity Recognition on CoNLL03
 
+## How to run
+
+```bash 
+
+python experiment.py
+
+```
+
 ## Dataset 
 The shared task of CoNLL-2003 concerns language-independent named entity recognition. We will concentrate on four types of named entities: persons, locations, organizations and names of miscellaneous entities that do not belong to the previous three groups.
 
